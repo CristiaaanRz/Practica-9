@@ -1,10 +1,10 @@
 # Supervivencia Espacial
 
-Proyecto de videojuego 2D interactivo desarrollado en JavaFX, basado en una arquitectura de Programación Orientada a Objetos (POO) y el patrón de diseño estipulado en el diagrama de clases UML del curso.
+Práctica de videojuego 2D interactivo desarrollado en JavaFX, basado en una arquitectura de Programación Orientada a Objetos (POO) y el patrón de diseño estipulado en el diagrama de clases UML del curso.
 
 ---
 
-## Descripción del Proyecto
+## Descripción del Práctica
 
 El jugador asume el rol de un astronauta atrapado en una nave espacial en crisis. El objetivo es explorar un laberinto de 15x15 casillas, gestionar los ítems de la mochila, esquivar o eliminar enemigos en movimiento (Aliens), empujar obstáculos para abrir rutas y activar los interruptores con temporizador para desbloquear la salida de emergencia.
 
@@ -45,7 +45,7 @@ El jugador asume el rol de un astronauta atrapado en una nave espacial en crisis
 
 ## Estructura del Código (Modelos UML)
 
-El proyecto vincula los componentes de la interfaz gráfica con el backend de clases del modelo:
+La práctica vincula los componentes de la interfaz gráfica con el backend de clases del modelo:
 
 - **`Personaje`**: Modela los atributos del jugador (vida, nombre, coordenadas) e implementa las interfaces `ElementoDinamico` y `Destruible`.
 - **`Nivel`**: Contenedor agregador que gestiona la lista de obstáculos, elementos dinámicos, checkpoints e inventario.
