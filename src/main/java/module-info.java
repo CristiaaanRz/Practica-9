@@ -1,8 +1,8 @@
-module org.uabc.ic.practica9 {
+module org.uabc.ic {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens org.uabc.ic.practica9 to javafx.fxml;
-    exports org.uabc.ic.practica9;
+    opens org.uabc.ic to javafx.fxml;
+    exports org.uabc.ic;
 }
